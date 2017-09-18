@@ -393,7 +393,7 @@
         'include': '#parens-block'
       }
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   'c_function_call':
@@ -538,7 +538,7 @@
         'name': 'punctuation.section.parens.end.bracket.round.c'
     'patterns': [
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   'parens-block':
@@ -634,7 +634,7 @@
             'include': '#c_function_call'
           }
           {
-            'include': '$base'
+            'include': '$self'
           }
         ]
       }
@@ -790,7 +790,7 @@
             ]
           }
           {
-            'include': '$base'
+            'include': '$self'
           }
         ]
       }
@@ -998,7 +998,7 @@
                 ]
               }
               {
-                'include': '$base'
+                'include': '$self'
               }
             ]
           }
@@ -1220,7 +1220,7 @@
             'end': '(?=^\\s*((#)\\s*(?:else|elif|endif)\\b))'
             'patterns': [
               {
-                'include': '$base'
+                'include': '$self'
               }
             ]
           }
@@ -1381,7 +1381,7 @@
             ]
           }
           {
-            'include': '$base'
+            'include': '$self'
           }
         ]
       }
@@ -1472,7 +1472,7 @@
     'end': '(?=^\\s*((#)\\s*endif\\b))'
     'patterns': [
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   'preprocessor-rule-enabled-else-block':
@@ -1589,7 +1589,7 @@
         'include': '#libc'
       }
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   'preprocessor-rule-define-line-blocks':
@@ -1736,7 +1736,7 @@
         ]
       }
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   'function-call-innards':

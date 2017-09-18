@@ -101,7 +101,7 @@
     'name': 'meta.function.destructor.cpp'
     'patterns': [
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   }
@@ -126,7 +126,7 @@
     'name': 'meta.function.destructor.prototype.cpp'
     'patterns': [
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   }
@@ -144,7 +144,7 @@
         'include': '#angle_brackets'
       }
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   'block':
@@ -174,7 +174,7 @@
         'name': 'meta.function-call.c'
       }
       {
-        'include': '$base'
+        'include': '$self'
       }
     ]
   'constructor':
@@ -197,7 +197,7 @@
         'name': 'meta.function.constructor.cpp'
         'patterns': [
           {
-            'include': '$base'
+            'include': '$self'
           }
         ]
       }
@@ -218,7 +218,7 @@
         'name': 'meta.function.constructor.initializer-list.cpp'
         'patterns': [
           {
-            'include': '$base'
+            'include': '$self'
           }
         ]
       }
@@ -271,12 +271,12 @@
                 'include': '#constructor'
               }
               {
-                'include': '$base'
+                'include': '$self'
               }
             ]
           }
           {
-            'include': '$base'
+            'include': '$self'
           }
         ]
       }
@@ -327,12 +327,12 @@
                 'include': '#constructor'
               }
               {
-                'include': '$base'
+                'include': '$self'
               }
             ]
           }
           {
-            'include': '$base'
+            'include': '$self'
           }
         ]
       }
@@ -358,12 +358,12 @@
                 'include': '#special_block'
               }
               {
-                'include': '$base'
+                'include': '$self'
               }
             ]
           }
           {
-            'include': '$base'
+            'include': '$self'
           }
         ]
       }
